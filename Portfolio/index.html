@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Ankit Kashyap</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hanburger-nav">
+      <div class="logo">Ankit</div>
+      <div class="handurger-menu">
+        <div class="hanburger-icon open" onclick="tooglemenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links open">
+          <!-- this is some thing -->
+          <li><a href="#about" onclick="tooglemenu()">About</a></li>
+          <li><a href="#resume" onclick="tooglemenu()">Resume</a></li>
+          <li><a href="#experience" onclick="tooglemenu()">Experience</a></li>
+          <li><a href="#projects" onclick="tooglemenu()">Projects</a></li>
+          <li><a href="#contact" onclick="tooglemenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <!--------------- here we have portfolio section -------------------------->
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assest/myimage1.png" alt="my_image" />
+      </div>
+      <div class="section_text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ankit Kashyap</h1>
+        <p class="section__text__p2">Web Developer</p>
+        <div class="btn-container">
+          <button id="resume"
+            class="btn btn-color-2"
+            onclick="window.open('./assest/Ankit Resume.pdf')"
+          >
+            Downlod CV
+          </button>
+
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div class="social-icon">
+          <div class="social-container">
+            <img
+              src="./assest/linkedin.png"
+              alt="My linkdin profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/ankit-kashyap-5733881a5/'"
+            />
+          </div>
+  
+          <div class="social-container">
+            <img
+              src="./assest/github.png"
+              alt="My github profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/ankit-kashyap-5733881a5/'"
+            />
+          </div>
+
+        </div>
+        
+
+        <!-- <div id="social-container">
+          <img
+            src="./assest/instagram.png"
+            alt="My instagram profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/ankit-kashyap-5733881a5/'"
+          />
+        </div> -->
+      </div>
+    </section>
+    <!--------------- here we have about section -------------------------->
+    <section id="about">
+      <p class="section__text__p1">Get to Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="all-container">
+        <div class="section__pic-container">
+          <img
+            src="./assest/myimage1.png"
+            alt="Portfolio picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-detaiils-container">
+          <div class="about-container">
+            <div class="details-container">
+              <img
+                src="./assest/experience.svg"
+                alt="Expereience icon"
+                class="icon"
+              />
+              <h2>Experience</h2>
+              <p>Freasher <br />Frontend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assest/ediucation.svg"
+                alt="Education icon"
+                class="icon"
+              />
+              <h2>Education</h2>
+              <p>B.Sc. Bechelore degree <br />MCA Master degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a passionate and experienced full stack web developer with a
+              strong foundation in both front-end and back-end technologies. With a
+              keen eye for detail and a love for problem-solving, I thrive on
+              creating dynamic and user-friendly web applications that deliver
+              exceptional user experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+    <!--------------- here we have experience section -------------------------->
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-container">
+            <div class="details-container">
+               <h2 id="experience-sub-title">Frontend Development</h2>
+               <div class="article-container">
+                <article>
+                  <img src="./assest/Star.svg" alt="expereience icon" class="icon"/>
+                  <div>
+                    <h3>HTML</h3>
+                    <P>Experience</P>
+                  </div>
+                </article>
+
+                <article>
+                  <img src="./assest/Star.svg" alt="expereience icon" class="icon"/>
+                  <div>
+                    <h3>css</h3>
+                    <P>Intermediate</P>
+                  </div>
+                </article>
+
+                <article>
+                  <img src="./assest/Star.svg" alt="expereience icon" class="icon"/>
+                  <div>
+                    <h3>Material UI</h3>
+                    <P>Basic</P>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assest/Star.svg" alt="expereience icon" class="icon"/>
+                  <div>
+                    <h3>Reactjs</h3>
+                    <P>Intermediate</P>
+                  </div>
+                </article>
+
+             
+
+                <article>
+                  <img src="./assest/Star.svg" alt="expereience icon" class="icon"/>
+                  <div>
+                    <h3>Javascript</h3>
+                    <P>Intermediate</P>
+                  </div>
+                </article>
+
+                <article>
+                  <img src="./assest/Star.svg" alt="expereience icon" class="icon"/>
+                  <div>
+                    <h3>Next.js</h3>
+                    <P>Intermediate</P>
+                  </div>
+                </article>
+
+               
+              </div>
+            </div>
+
+            <div class="details-container">
+              <h2 id="experience-sub-title">Backend Development</h2>
+              <div class="article-container">
+            
+
+               <article>
+                 <img src="./assest/Star.svg" alt="expereience icon" class="icon"/>
+                 <div>
+                   <h3>Node JS</h3>
+                   <P>Intermediate</P>
+                 </div>
+               </article>
+
+               <article>
+                 <img src="./assest/Star.svg" alt="expereience icon" class="icon"/>
+                 <div>
+                   <h3>Express JS</h3>
+                   <P>Intermediate</P>
+                 </div>
+               </article>
+               <article>
+                 <img src="./assest/Star.svg" alt="expereience icon" class="icon"/>
+                 <div>
+                   <h3>MongoDb</h3>
+                   <P>Intermediate</P>
+                 </div>
+               </article>
+
+               <article>
+                 <img src="./assest/Star.svg" alt="expereience icon" class="icon"/>
+                 <div>
+                   <h3>Java</h3>
+                   <P>Experience</P>
+                 </div>
+               </article>
+
+
+               <article>
+                 <img src="./assest/Star.svg" alt="expereience icon" class="icon"/>
+                 <div>
+                   <h3>Git</h3>
+                   <P>Intermediate</P>
+                 </div>
+               </article>
+
+               <article>
+                 <img src="./assest/Star.svg" alt="expereience icon" class="icon"/>
+                 <div>
+                   <h3>Mysql</h3>
+                   <P>Experience</P>
+                 </div>
+               </article>
+             </div>
+           </div>
+          </div>
+        </div>
+      </section>
+
+     
+    </section>
+    <!--------------- here we have projects section -------------------------->
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-container">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assest/project1.jpg" alt="Projects" class="project-img"/>
+            <h2 class="experience-sub-title project-title"> Simple calculator</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ANKIT-KASHYAP/CODSOFT/tree/main/my_calculator'">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ANKIT-KASHYAP/CODSOFT/tree/main/my_calculator'">Live Demo</button>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assest/project2.jpg" alt="Projects" class="project-img"/>
+            <h2 class="experience-sub-title project-title">Food Website</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ANKIT-KASHYAP/CODSOFT/tree/main/Landing%20Page '">Github</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ANKIT-KASHYAP/CODSOFT/tree/main/Landing%20Page '">Live Demo</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+   
+
+    </section>
+    <!--------------- here we have contact section -------------------------->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 id="contact" class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assest/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+          <p class=""><a href="mailto:examplemail@gmail.com">27ankitkashyap@gmail.com</a></p>
+        </div>
+
+        <div class="contact-info-container">
+          <img src="./assest/linkedin.png" alt="linkdin icon" class="icon contact-icon"/>
+          <p class=""><a href="https://www.linkdin.com">Linkedin</a></p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Ankit Kashyap. All Rights Reserved</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
